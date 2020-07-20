@@ -1,0 +1,93 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:gravity="center"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="552dp"
+        android:background="@drawable/t"
+        android:gravity="center"
+        android:orientation="vertical" >
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="Book Appointment" />
+
+       
+
+            <Button
+                android:id="@+id/button2"
+               android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="View Booking" />
+
+       
+                   <Button
+                android:id="@+id/button4"
+               android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="View Doctors" />
+
+                   <Button
+                       android:id="@+id/button10"
+                        android:layout_width="190dp"
+                       android:layout_height="wrap_content"
+                       android:text="Upload Prescription" />
+
+               <Button
+            android:id="@+id/button3"
+           android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="View prescription" />
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="View medical report" />
+
+		
+
+		<Button
+		    android:id="@+id/button9"
+		    android:layout_width="190dp"
+		    android:layout_height="wrap_content"
+		    android:text="View recent orders" />
+
+		<Button
+		    android:id="@+id/button8"
+		     android:layout_width="190dp"
+		    android:layout_height="wrap_content"
+		    android:text="Send Feedback" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="Change password" />
+
+        <Button
+            android:id="@+id/button7"
+           android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="Logout" />
+    </LinearLayout>
+
+</ScrollView>

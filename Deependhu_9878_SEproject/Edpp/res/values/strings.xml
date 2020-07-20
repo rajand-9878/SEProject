@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Edpp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_booking1">Booking1</string>
+    <string name="title_activity_booking2">Booking2</string>
+    <string name="title_activity_booking3">Booking3</string>
+    <string name="title_activity_viewappoint">Viewappoint</string>
+    <string name="title_activity_viewappoint1">Viewappoint1</string>
+    <string name="title_activity_viewdoctor">Viewdoctor</string>
+    <string name="title_activity_viewbooking1">Viewbooking1</string>
+
+    <string-array name="specialisation">
+        <item>-----select----</item>
+        <item>ENT</item>
+        <item>ORTHOLOGY</item>
+        <item>SURGERY</item>
+        <item>CARDIOLOGY</item>
+        <item>DENTISTRY</item>
+    </string-array>
+    <string-array name="select_day">
+        <item>----select---</item>
+        <item>sunday</item>
+        <item>monday</item>
+        <item>tuesday</item>
+        <item>wednesday</item>
+        <item>thursday</item>
+        <item>friday</item>
+        <item>saturday</item>
+    </string-array>
+
+    <string name="title_activity_presc">Presc</string>
+    <string name="title_activity_medical">Medical</string>
+    <string name="title_activity_medical1">Medical1</string>
+    <string name="title_activity_presc1">Presc1</string>
+    <string name="title_activity_custom">Custom</string>
+    <string name="title_activity_custom1">Custom1</string>
+    <string name="title_activity_changepwd">Changepwd</string>
+    <string name="title_activity_medicen_reminder">MedicenReminder</string>
+    <string name="title_activity_view_medicen_reminder">ViewMedicenReminder</string>
+
+    <string-array name="dose">
+        <item>ml</item>
+        <item>number</item>
+    </string-array>
+
+    <string name="title_activity_alaramalphabet">Alaramalphabet</string>
+    <string name="title_activity_notification">Notification</string>
+    <string name="title_activity_trackdoctor">Trackdoctor</string>
+    <string name="title_activity_my_recent_booking1">MyRecentBooking1</string>
+    <string name="title_activity_view_ordered_medicen">ViewOrderedMedicen</string>
+    <string name="title_activity_view_store">ViewStore</string>
+    <string name="title_activity_pay">Pay</string>
+    <string name="title_activity_user_reg">UserReg</string>
+    <string name="title_activity_upload_prec">UploadPrec</string>
+    <string name="title_activity_result">Result</string>
+
+</resources>

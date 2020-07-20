@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.edpp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/dr"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.edpp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.edpp.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.Booking1"
+            android:label="@string/title_activity_booking1" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.Booking2"
+            android:label="@string/title_activity_booking2" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.Booking3"
+            android:label="@string/title_activity_booking3" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.Viewappoint"
+            android:label="@string/title_activity_viewappoint" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.Viewappoint1"
+            android:label="@string/title_activity_viewappoint1" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.Viewdoctor"
+            android:label="@string/title_activity_viewdoctor" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.Viewbooking1"
+            android:label="@string/title_activity_viewbooking1" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.Presc"
+            android:label="@string/title_activity_presc" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.Medical"
+            android:label="@string/title_activity_medical" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.Medical1"
+            android:label="@string/title_activity_medical1" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.Presc1"
+            android:label="@string/title_activity_presc1" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.Custom"
+            android:label="@string/title_activity_custom" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.Custom1"
+            android:label="@string/title_activity_custom1" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.Changepwd"
+            android:label="@string/title_activity_changepwd" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.MedicenReminder"
+            android:label="@string/title_activity_medicen_reminder" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.ViewMedicenReminder"
+            android:label="@string/title_activity_view_medicen_reminder" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.Alaramalphabet"
+            android:label="@string/title_activity_alaramalphabet" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.Notification"
+            android:label="@string/title_activity_notification" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.Trackdoctor"
+            android:label="@string/title_activity_trackdoctor" >
+        </activity>
+
+        <service android:name="com.example.edpp.TimeCheck" >
+        </service>
+
+        <activity
+            android:name="com.example.edpp.MyRecentBooking1"
+            android:label="@string/title_activity_my_recent_booking1" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.ViewOrderedMedicen"
+            android:label="@string/title_activity_view_ordered_medicen" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.ViewStore"
+            android:label="@string/title_activity_view_store" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.Pay"
+            android:label="@string/title_activity_pay" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.UserReg"
+            android:label="@string/title_activity_user_reg" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.Feedback"
+            android:label="@string/title_activity_user_reg" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.UploadPrec"
+            android:label="@string/title_activity_upload_prec" >
+        </activity>
+        <activity
+            android:name="com.example.edpp.Result"
+            android:label="@string/title_activity_result" >
+        </activity>
+    </application>
+
+</manifest>
